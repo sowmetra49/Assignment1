@@ -103,8 +103,7 @@ body {
   font-family: 'Raleway', sans-serif;
   margin: 0;
   padding: 0;
-  background: #000;
-  color: white;
+  ;
 }
 
 .banner {
@@ -123,12 +122,12 @@ body {
 .banner-content h1 {
   font-size: 36px;
   margin-bottom: 20px;
-  color: #d1ccff;
+  
 }
 
 .banner-content h4 {
   font-size: 20px;
-  color: #aaa;
+  
   margin-bottom: 25px;
 }
 
@@ -145,6 +144,39 @@ body {
 .banner-pic {
   max-width: 450px;
   width: 100%;
-  border-radius: 12px;
+  border-radius: 30px;
+} 
+.custom-stats {
+  background-color: #eef0ff;
+  padding: 40px 20px;
+  margin: 60px auto;
+  max-width: 900px;
+  border-radius: 20px;
+  text-align: center;
 }
 
+.custom-stats-title {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 30px;
+  color: #252432;
+}
+
+.custom-stats-box {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.custom-stat h3 {
+  font-size: 36px;
+  color: #4E47FF;
+  margin: 0;
+}
+
+.custom-stat p {
+  font-size: 16px;
+  color: #555;
+  margin-top: 8px;
+}
