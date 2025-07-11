@@ -187,6 +187,130 @@ body {
   font-size: 16px;
   margin-top: 8px;
 }
+/* CARD SECTION */
+
+.review-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 80px 20px;
+  gap: 50px;
+  max-width: 1140px;
+  margin: 0 auto;
+}
+
+.review-heading {
+  font-family: 'Raleway', sans-serif;
+  font-size: 42px;
+  font-weight: 700;
+  line-height: 49px;
+  color: #252432;
+  text-align: center;
+  margin: 0;
+}
+
+.review-container {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.review-card {
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 24px;
+  gap: 24px;
+  width: 366.67px;
+  height: 243px;
+  background: rgba(255, 255, 255, 0.5);
+  border: 1px solid #F2EDED;
+  border-radius: 14px;
+  flex-grow: 1;
+}
+
+.rating {
+  display: flex;
+  flex-direction: row;
+  gap: 4px;
+  height: 20px;
+}
+
+.rating img {
+  width: 20px;
+  height: 20px;
+}
+
+.review-body {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.review-title {
+  font-family: 'Inter', sans-serif;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 120%;
+  color: #1E1E1E;
+  margin: 0;
+}
+
+.review-text {
+  font-family: 'Inter', sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 140%;
+  color: #1E1E1E;
+  margin: 0;
+}
+
+.reviewer {
+  display: flex;
+ 
+  gap: 12px;
+  align-items: center;
+}
+
+.avatar {
+  width: 40px;
+  height: 40px;
+  border-radius: 9999px;
+  
+}
+
+.reviewer-info {
+  display: flex;
+  gap: 2px;
+   flex-direction: column;
+}
+
+.reviewer-name {
+  font-family: 'Inter', sans-serif;
+  font-weight: 600;
+  font-size: 16px;
+  color: #757575;
+  margin: 0;
+}
+
+.review-date {
+  font-family: 'Inter', sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 140%;
+  color: #B3B3B3;
+  margin: 0;
+}
+
+
+
+
+
+
+
 
 /* focuc better section */
 .focus-section {
@@ -279,7 +403,7 @@ textarea {
 button {
   background-color: #4f46e5;
   color: white;
-  /* border: none; */
+ 
   padding: 12px;
   border-radius: 10px;
   font-weight: bold;
@@ -339,7 +463,7 @@ body {
 .footer-nav a:hover {
   text-decoration: underline;
 }
-/* === Pulse Animation === */
+/* === Pulse button Animation === */
 @keyframes pulse {
   0% {
     transform: scale(1);
@@ -355,7 +479,7 @@ body {
   }
 }
 
-/* === Apply This Class to Buttons You Want to Animate === */
+
 .pulse-button { background-color: #4E47FF;
   color: white;
   border: none;
@@ -369,6 +493,34 @@ body {
 .pulse-button:hover {
   animation: pulse 1s infinite;
 }
+
+.stars {
+  display: flex;
+  justify-content: center;
+  gap: 8px;
+}
+
+.card {
+  max-width: 300px;
+  margin: 20px auto;
+  padding: 15px;
+  text-align: center;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  background: #fff;
+}
+
+.reviewer {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-top: 15px;
+}
+.stars img {
+  width: 40px;   /* control star size */
+  height: 40px;
+}
+
 
   
 
