@@ -293,3 +293,52 @@ button {
 
 }
 
+/* footer css */
+
+body {
+  margin: 0;
+  font-family: 'Inter', sans-serif;
+  background: white;
+}
+
+.footer {
+  text-align: center;
+  padding: 60px 20px;
+}
+
+.footer-logo {
+  color: #4E47FF;
+  font-size: 80px;
+  font-weight: 700;
+  font-weight: 850;
+  margin-top: 104px;
+  margin-bottom: 2px;
+  line-height: 121px;
+ 
+}
+
+.footer-description {
+  color: #8987A1;
+  font-size: 15px;
+  max-width:531px;
+  margin: 20px auto;
+  line-height:auto;
+  font-weight: 100px;
+}
+
+.footer-nav {
+  margin-top: 20px;
+}
+
+.footer-nav a {
+  color: #8987A1;
+  text-decoration: none;
+   margin: 0 15px;
+}
+
+.footer-nav a:hover {
+  text-decoration: underline;
+}
+
+    
+
