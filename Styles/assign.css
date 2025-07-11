@@ -152,7 +152,9 @@ body {
   border-radius: 30px;
 } 
 .custom-stats {
-  background-color: #eef0ff;
+  
+  
+  background-color:#F8C8DC;
   padding: 40px 20px;
   margin: 60px auto;
   max-width: 900px;
@@ -183,11 +185,12 @@ body {
 
 .custom-stat p {
   font-size: 16px;
-  color:;
   margin-top: 8px;
 }
+
+/* focuc better section */
 .focus-section {
-  background-color: whitesmoke;
+  background-color: white;
   padding: 60px 20px;
   border-radius: 20px;
   text-align: center;
@@ -288,5 +291,5 @@ button {
 .label-font{
   font-family: 'Inter', sans-serif;
 
-  
 }
+
